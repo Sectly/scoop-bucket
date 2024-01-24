@@ -1,0 +1,25 @@
+{
+    "version": "1.2.3",
+    "description": "Everything",
+    "homepage": "https://www.voidtools.com/",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "Everything.exe",
+            "Everything"
+        ]
+    ],
+    "url": "https://www.voidtools.com/Everything-1.4.1.1024.x86.zip",
+    "hash": "febbdf9ffefd122e046163d23b3ce995b35bbee05964886d1db8c81b7fb5c34f",
+    "checkver": {
+        "url": "https://www.voidtools.com/downloads/",
+        "regex": "Everything-([\\d.]+)\\.1024.x86.zip"
+    },
+    "autoupdate": {
+        "url": "https://www.voidtools.com/Everything-$version.1024.x86.zip"
+        "hash": {
+            "url": "$url.sha256"
+        }
+    },
+    "notes": ["Thank you for installing Everything in the Sectly bucket!"]
+}
