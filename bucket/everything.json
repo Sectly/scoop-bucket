@@ -1,5 +1,5 @@
 {
-    "version": "1.2.3",
+    "version": "1.4.1",
     "description": "Everything",
     "homepage": "https://www.voidtools.com/",
     "license": "MIT",
@@ -11,19 +11,12 @@
         ]
     ],
     "pre_install": [
-      "echo Updating...",
-      "scoop update",
-      "echo Installing..."
+        "echo Updating...",
+        "scoop update",
+        "echo Installing..."
     ],
-    "post_install": [
-      "echo Installed!"
-    ],
-    "pre_uninstall": [
-      "echo Uninstalling..."
-    ],
-    "pre_uninstall": [
-      "echo Uninstalled!"
-    ],
+    "post_install": "echo Installed!",
+    "pre_uninstall": "echo Uninstalled!",
     "url": "https://www.voidtools.com/Everything-1.4.1.1024.x86.zip",
     "hash": "febbdf9ffefd122e046163d23b3ce995b35bbee05964886d1db8c81b7fb5c34f",
     "checkver": {
@@ -36,5 +29,5 @@
             "url": "$url.sha256"
         }
     },
-    "notes": ["Thank you for installing Everything in the Sectly bucket!"]
+    "notes": "Thank you for installing Everything in the Sectly bucket!"
 }
