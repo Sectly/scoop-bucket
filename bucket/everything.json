@@ -16,7 +16,7 @@
         "regex": "Everything-([\\d.]+)\\.1024.x86.zip"
     },
     "autoupdate": {
-        "url": "https://www.voidtools.com/Everything-$version.1024.x86.zip"
+        "url": "https://www.voidtools.com/Everything-$version.1024.x86.zip",
         "hash": {
             "url": "$url.sha256"
         }
