@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "description": "MetroChat",
     "homepage": "https://metrochat.replit.app/",
-    "license": "MIT",
+    "license": "MPL-2.0",
     "bin": "MetroChat.exe",
     "shortcuts": [
         [
