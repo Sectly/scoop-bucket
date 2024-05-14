@@ -2,7 +2,7 @@
   "version": "1.0.1",
   "homepage": "https://github.com/containers/podman-tui",
   "description": "A TUI (Terminal User Interface) for Podman v4 and v5, the container management tool.",
-  "bin": ["podman-tui-$version/podman-tui"],
+  "bin": ["podman-tui"],
   "alias": {
     "ptui": "podman-tui"
   },
