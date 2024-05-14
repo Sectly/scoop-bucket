@@ -40,7 +40,8 @@
   },
   "hooks": {
     "postextract": [
-        "mv podman-tui-*/podman* ../../"
+      "echo Patching Paths...",
+      "find podman-tui-* -name 'podman*' -exec mv {} ../../ \\;"
     ]
   }
 }
