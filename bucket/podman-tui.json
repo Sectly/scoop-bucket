@@ -6,7 +6,6 @@
   "alias": {
     "ptui": "podman-tui"
   },
-  "extract_dir": "",
   "checkver": {
     "url": "https://api.github.com/repos/containers/podman-tui/releases/latest",
     "regex": "v(\\d+\\.\\d+\\.\\d+)"
@@ -38,5 +37,10 @@
       "url": "https://github.com/containers/podman-tui/releases/latest/download/podman-tui-release-darwin_amd64.zip",
       "hash": "08a3cb75fa890daa03e3b887a1c55ba616157f0c33d12cfaba785d4fbf8ac8c0"
     }
+  },
+  "hooks": {
+    "postextract": [
+        "mv podman-tui-*/podman* ../../"
+    ]
   }
 }
