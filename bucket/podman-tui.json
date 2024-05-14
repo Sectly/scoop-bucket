@@ -6,6 +6,7 @@
   "alias": {
     "ptui": "podman-tui"
   },
+  "extract_dir": "podman-tui-{version}",
   "checkver": {
     "url": "https://api.github.com/repos/containers/podman-tui/releases/latest",
     "regex": "v(\\d+\\.\\d+\\.\\d+)"
