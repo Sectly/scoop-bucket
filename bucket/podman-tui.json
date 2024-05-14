@@ -34,5 +34,6 @@
       "url": "https://github.com/containers/podman-tui/releases/latest/download/podman-tui-release-darwin_amd64.zip",
       "hash": "08a3cb75fa890daa03e3b887a1c55ba616157f0c33d12cfaba785d4fbf8ac8c0"
     }
-  }
+  },
+  "extract_dir": "podman-tui-release-windows_amd64"
 }
