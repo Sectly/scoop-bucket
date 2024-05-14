@@ -8,7 +8,8 @@
   },
   "checkver": {
     "url": "https://api.github.com/repos/containers/podman-tui/releases/latest",
-    "regex": "v(\\d+\\.\\d+\\.\\d+)"
+    "regex": "v(\\d+\\.\\d+\\.\\d+)",
+    "postextract": "if ($env:OS -eq 'Windows_NT') { Move-Item -Path podman-tui-1.0.1\\* -Destination $env:SCOOP_APPS\\podman-tui\\current -Force } else { mv podman-tui-1.0.1/* $SCOOP_APPS/podman-tui/current }"
   },
   "download": {
     "url": "https://github.com/containers/podman-tui/releases/latest",
